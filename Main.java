@@ -1,30 +1,45 @@
 public class Main {
-    public static void main(String[] args){
-        
-        double n1, n2, n3, n4, res;
-        
-        System.out.print("Informe a nota 1: ");
-        n1 = Double.parseDouble(System.console().readLine());
-        
-        System.out.print("Informe a nota 2: ");
-        n2 = Double.parseDouble(System.console().readLine());
-        
-        System.out.print("Informe a nota 3: ");
-        n3 = Double.parseDouble(System.console().readLine());
-        
-        System.out.print("Informe a nota 4: ");
-        n4 = Double.parseDouble(System.console().readLine());
-        
-        res = (n1 + n2 + n3 + n4) / 4;
-        
-        System.out.printf("Média das notas = %.1f\n", res);
-        
-        // Implementação SE...ENTÃO em JAVA
-        
-        if(res >= 7)
-            System.out.println("Aluno aprovado!");
-            
-        else
+
+      public static void main(String[] args) {
+
+          double N1, N2, N3, N4, RES;
+
+          System.out.print("Informe a nota do primeiro bimestre: ");
+
+          N1 = Double.parseDouble(System.console().readLine());
+
+          System.out.print("Informe a nota do segundo bimestre: ");
+
+          N2 = Double.parseDouble(System.console().readLine());
+
+          System.out.print("Informe a nota do terceiro bimestre: ");
+
+          N3 = Double.parseDouble(System.console().readLine());
+
+          System.out.print("Informe a nota do quarto bimestre: ");
+
+          N4 = Double.parseDouble(System.console().readLine());
+
+         
+
+          RES = (N1 + N2 + N3 + N4) / 4;
+
+          System.out.printf("Media das notas = %.1f\n", RES);
+
+          // Eis a partir daqui a implementação da estrutura SE...ENTÃO em Java
+
+          if(RES >= 7)
+
+              System.out.println("Aluno aprovado!");
+
+         else
+
+              System.out.println("Aluno reprovado!");
+              System.out.println("Repetiu Ze da manga!");
+
+     }
+
+}
             System.out.println("Aluno reprovado!");
     }
 }
