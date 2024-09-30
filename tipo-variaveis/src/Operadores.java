@@ -1,10 +1,21 @@
 public class Operadores {
 
     public static void main(String[] args) throws Exception { 
-        String nomeUm = "Zé";
-        String nomeDois = new String("Zé");
+        boolean condicao1 = true;
 
-        System.out.println(nomeUm.equals(nomeDois));
+        boolean condicao2 = true;
+
+        if(condicao1 && condicao2)){
+            System.out.println("As duas condições são verdadeiras");
+
+        }
+
+        if(condicao1 || condicao2){
+            System.out.println("Uma das condições é verdadeira");
+        }
+
+        System.out.println("FIM");
+
 
     }
     
