@@ -7,17 +7,12 @@ public class SistemaMedida {
                 System.out.println("Pequeno");
                 
                 break;
-            
-        
         
             case "M":
                 System.out.println("Médio");
                         
                 break;
-                
-        
-        
-       
+                      
             case "G":
                 System.out.println("Grande");
                         
