@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AdicionalNoturno",
+            "request": "launch",
+            "mainClass": "AdicionalNoturno",
+            "projectName": "CONTROLE-FLUXO_70c531f9"
+        },
+        {
+            "type": "java",
             "name": "ResultadoEscolar",
             "request": "launch",
             "mainClass": "ResultadoEscolar",
