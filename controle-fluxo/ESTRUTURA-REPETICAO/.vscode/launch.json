@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExemploWhile",
+            "request": "launch",
+            "mainClass": "ExemploWhile",
+            "projectName": "ESTRUTURA-REPETICAO_a36d0528"
+        },
+        {
+            "type": "java",
             "name": "ExemploBreakContinue",
             "request": "launch",
             "mainClass": "ExemploBreakContinue",
