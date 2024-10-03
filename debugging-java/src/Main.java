@@ -12,12 +12,13 @@ public class Main {
     }
     static void b(){
         System.out.println("Entrou no metodo b");
-        for(int i = 0; i <= 4; i++) System.out.print(i);
+        for(int i = 0; i <= 4; i++) System.out.println(i);
         c();
         System.out.println("Saiu do metodo b");
     }
     static void c(){
         System.out.println("Entrou no metodo c");
+        Thread.dumpStack();
         System.out.println("Saiu do metodo c");
     }
 }
