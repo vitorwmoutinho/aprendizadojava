@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VerificarComboCompleto",
+            "request": "launch",
+            "mainClass": "VerificarComboCompleto",
+            "projectName": "exerciciosdio_63544604"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
