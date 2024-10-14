@@ -1,13 +1,10 @@
 package AutodromoExemplo;
 
 public class Moto extends Veiculo {
-
-	@Override
-	public void ligar() {
-		// TODO Auto-generated method stub
-		System.out.println("Moto ligada");
-		
-	}
-
-
+    // Sobrescreve o método ligar para comportamento específico de Moto
+    @Override
+    public void ligar() {
+        System.out.println("A moto está ligada.");
+    }
 }
+
