@@ -7,7 +7,8 @@ public class ComputadorPedrinho {
 	public static void main(String[] args) {
 		ServicoMensagemInstantanea smi = null;
 		
-		String appEscolhido = "fbm";
+		String appEscolhido = "zzz";
+
 		
 		if(appEscolhido.equals("msn"))
 			smi = new MSNMessenger();
@@ -15,9 +16,13 @@ public class ComputadorPedrinho {
 			smi = new FacebookMessenger();
 		else if(appEscolhido.equals("tlg"))
 			smi = new Telegram();
-		
-		smi.enviarMensagem();
-		smi.receberMensagem();
+        else
+            System.out.println("Aplicativo de mensagem não reconhecido");
+
+        if (smi != null) {
+            smi.enviarMensagem();
+            smi.receberMensagem();
+        }
 		
 		
 		
