@@ -1,18 +1,30 @@
-## Getting Started
+# Modelagem UML: Funcionalidades do iPhone
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto envolve a modelagem e diagramação da representação UML dos componentes principais do iPhone, com foco em suas funcionalidades como **Reprodutor Musical**, **Aparelho Telefônico** e **Navegador de Internet**. O objetivo é aprimorar minhas habilidades em UML e utilizar **Java** para implementar o modelo.
 
-## Folder Structure
+## Objetivo do Projeto
 
-The workspace contains two folders by default, where:
+O objetivo deste projeto é criar um diagrama UML detalhado do iPhone, destacando suas principais funções:
+- **Reprodutor Musical**: Tocar, pausar, parar e gerenciar arquivos de música.
+- **Aparelho Telefônico**: Fazer e receber chamadas, gerenciar contatos.
+- **Navegador de Internet**: Acessar páginas web, gerenciar abas e histórico.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Ferramentas Utilizadas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Linguagem**: Java
+- **IDE**: Visual Studio Code
+- **Diagramas UML**: Diagramas de classe, diagramas de atividade e diagramas de sequência são utilizados para representar o comportamento e a estrutura dos componentes do iPhone.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Objetivos
 
-## Dependency Management
+- Desenvolver diagramas UML para modelar as principais funcionalidades do iPhone.
+- Utilizar Java para representar essas funcionalidades por meio de classes e métodos.
+- Praticar e aprimorar as técnicas de programação orientada a objetos e modelagem UML.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Como Executar o Projeto
+
+1. Clone este repositório.
+2. Abra o projeto no Visual Studio Code.
+3. Certifique-se de que o Java está instalado.
+4. Execute as classes Java para simular as diferentes funcionalidades modeladas no diagrama UML.
+
