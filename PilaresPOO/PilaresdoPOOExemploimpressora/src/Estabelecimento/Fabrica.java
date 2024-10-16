@@ -1,5 +1,5 @@
 
-package Estabelecimento;
+package estabelecimento;
 
 import equipamentos.copiadora.Copiadora;
 import equipamentos.digitalizadora.Digitalizadora;
