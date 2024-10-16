@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Fabrica",
+            "request": "launch",
+            "mainClass": "estabelecimento.Fabrica",
+            "projectName": "PilaresdoPOOExemploimpressora_c388dba9"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
