@@ -15,6 +15,4 @@ public abstract class Dispositivo {
         return modelo;
     }
 
-    public abstract void ligar();
-    public abstract void desligar();
 }
