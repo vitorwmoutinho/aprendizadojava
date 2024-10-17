@@ -18,7 +18,13 @@ public class Usuario {
         telefone.ligar("40028922");
         telefone.atender();
 
-        
+        Safari navegadSafari = iphone1;
+        navegadSafari.exibirPagina("www.xlm.com");
+        navegadSafari.adicionarNovaAba();
+        navegadSafari.exibirPagina("www.bra.com.br");
+        navegadSafari.atualizarPagina();
+
+
     }
 
 }
