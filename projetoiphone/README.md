@@ -5,9 +5,10 @@ Este projeto envolve a modelagem e diagramação da representação UML dos comp
 ## Objetivo do Projeto
 
 O objetivo deste projeto é criar um diagrama UML detalhado do iPhone, destacando suas principais funções:
-- **Reprodutor Musical**: Tocar, pausar, parar e gerenciar arquivos de música.
+- **Reprodutor Musical**: Tocar, pausar, parar e gerenciar arquivos de música. Ex: Ipod.
 - **Aparelho Telefônico**: Fazer e receber chamadas, gerenciar contatos.
-- **Navegador de Internet**: Acessar páginas web, gerenciar abas e histórico.
+- **Navegador de Internet**: Acessar páginas web, gerenciar abas e histórico. Ex: Safari.
+
 
 ## Ferramentas Utilizadas
 
