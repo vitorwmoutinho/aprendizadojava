@@ -1,14 +1,7 @@
 package iphone.funcionalidades.reprodutormusical;
 
-public class ipod {
-    public void tocar(){
-        System.out.println("Telefone está tocando musica.");
-    }
-    public void pausar(){
-        System.out.println("Pausar musica");
-    }
-    public void selecionarMusica(){
-        System.out.println("Selecionando musica");
-    }
-
+public interface  ipod {
+    public void tocar();
+    public void pausar();
+    public void selecionarMusica(String musica);
 }
