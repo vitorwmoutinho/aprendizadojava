@@ -29,3 +29,5 @@ O objetivo deste projeto é criar um diagrama UML detalhado do iPhone, destacand
 3. Certifique-se de que o Java está instalado.
 4. Execute as classes Java para simular as diferentes funcionalidades modeladas no diagrama UML.
 
+![alt text](image.png)
+
